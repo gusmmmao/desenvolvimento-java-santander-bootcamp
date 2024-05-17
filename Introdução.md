@@ -16,15 +16,13 @@ public class MinhaClasse {
 }
 ```
 
-Este, para todos os fins, é meu primeiro trecho de código:
+Como, por exemplo, esse trecho inicial:
 
 ```
 public class MinhaClasse {
-
 	public static void main (String [] args){
 		System.out.println("Olá, mundo!")
 	}
-
 }
 ```
 
@@ -33,4 +31,23 @@ public class MinhaClasse {
 - Nome da classe no arquivo: o nome da classe deve ser o mesmo nome do arquivo .java.
 - Nome de váriavel: toda variável deve ser escrita com letra minúscula; se for palavra composta, a segunda letra iniciára com letra maiúscula; em caso de variáveis que não devem ser alteradas, ela deve ser escrita inteira em letras maiúsculas (ou, também, deve se usar o parâmetro `final` antes da declaração).
 
-### Declaração de váriaveis no Java:
+### Declaração de váriaveis e métodos no Java:
+- Declarar uma variável segue a seguinte estrutura:
+
+```
+// Estrutura da variável
+Tipo nomeBemDefinido = Atribuição/Valor // <- opcional em alguns casos
+```
+
+- Para declarar um método, será seguida a seguinte estrutura:
+
+```
+// Estrutura do método
+TipoDoRetorno NomeObjetivoNoInfinitivo Parametro(s){}
+```
+
+### Identação:
+- É uma forma de organização/escrita do código de forma hieráquica, facilitando a visualização e compreensão do programa.
+
+### Próximo assunto:
+- ...
